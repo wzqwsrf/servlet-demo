@@ -76,7 +76,7 @@ public class PostResquest {
     }
 
     public static void main(String[] args) throws IOException {
-        String url = "http://localhost:8080/servlet-test/1.jsp";
+        String url = "http://localhost:8080/servlet-test/post.jsp";
         Map<String, String> params = new HashMap<String, String>();
         params.put("username", "wzq");
         params.put("passwd", "123");
