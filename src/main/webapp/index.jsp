@@ -12,6 +12,6 @@
   </head>
   <body>
   This is my first servlet!
-  <%=request.getAttribute("username")%>/
+  <%=request.getAttribute("username")%>
   </body>
 </html>

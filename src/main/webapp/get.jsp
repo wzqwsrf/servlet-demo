@@ -5,7 +5,6 @@
   Time: 下午2:55
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page import="java.io.PrintWriter" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
 System.out.println("这是get方法");

@@ -79,7 +79,7 @@ public class GetRequest {
     }
 
     public static void main(String[] args) throws IOException {
-        String url = "http://localhost:8080/servlet-test/1.jsp";
+        String url = "http://localhost:8080/servlet-demo/1.jsp";
         Map<String, String> params = new HashMap<String, String>();
         params.put("username", "wzq");
         String result = sendGet(url, params);

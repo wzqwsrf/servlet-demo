@@ -5,12 +5,12 @@
          version="3.1">
     
     <servlet>
-        <servlet-name>ServletTest</servlet-name>
+        <servlet-name>ServletDemo</servlet-name>
         <servlet-class>com.wzq.servlet.ServletTest</servlet-class>
         
     </servlet>
     <servlet-mapping>
-        <servlet-name>ServletTest</servlet-name>
+        <servlet-name>ServletDemo</servlet-name>
         <url-pattern>/1.jsp</url-pattern>
     </servlet-mapping>
 </web-app>

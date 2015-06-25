@@ -76,12 +76,11 @@ public class PostResquest {
     }
 
     public static void main(String[] args) throws IOException {
-        String url = "http://localhost:8080/servlet-test/post.jsp";
+        String url = "http://localhost:8080/servlet-demo/post.jsp";
         Map<String, String> params = new HashMap<String, String>();
         params.put("username", "wzq");
         params.put("passwd", "123");
         String result = sendPost(url, params);
         System.out.println(result);
-
     }
 }
